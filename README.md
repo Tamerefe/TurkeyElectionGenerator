@@ -17,34 +17,8 @@
 ## Requirements
 
 - Python 3.x
-- Pandas
-- Matplotlib
-- Jupyter Notebook (optional, but recommended for visualizing the data)
-
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/Tamerefe/TurkeyElectionGenerator.git
-    ```
-
-## Usage
-
-1. Using the terminal:
-
-    - Run the Python script by executing the following command in the terminal:
-
-        ```bash
-        python TC.py / IYI.py / CHF.py / Turk.py
-        ```
-
-    - The script will load the election data and provide various analyses and visualizations.
+- C
 
 ## Support
 
 If you have any questions or feedback, please open an issue or send an email to: tamerakipek@gmail.com
-
-## License
-
-This project is licensed under the myself License. See the `LICENSE` file for more information.
