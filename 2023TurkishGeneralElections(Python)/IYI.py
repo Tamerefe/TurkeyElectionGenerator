@@ -1,4 +1,5 @@
 from random import randrange
+import datas
 
 class myColors :
      
@@ -22,24 +23,6 @@ class myColors :
 	LightCyan    = "\033[96m"
 	White        = "\033[0;33m"
 
-akp = [31.1,35.1,38.4,29.1,32.7,28.1,34.2,31.8,36.7,27.5,30.8,35.4,31.0,31.0,38.5,29.1,33.3,34.0]
-mhp = [6.9,7.7,7.0,7.1,6.3,6.3,6.9,6.1,7.6,7.1,7.1,5.9,7.2,6.5,10.1,5.4,6.5,6.6]
-bbp = [0,0,0.9,0,0.1,1.6,0.4,0,0,0.8,0.2,0,0,0,0,0,1.0,0]
-yrp = [1.3,1.6,1.0,1.5,0.7,1.2,1.3,1.1,0.8,1.4,2.2,2,1.3,1.9,1.6,1.0,1.4,1.3]
-chp = [27.9,28.1,25.9,31.9,26.8,28.3,26.0,27.8,26.5,23.1,30.8,24.2,27.4,28.4,31.8,23.5,27.9,26.1]
-iyi = [12.2,9.3,10.5,12.5,11.7,13.6,11.4,10.5,9.7,8.3,7.2,10.3,12.0,8.9,10.4,19.5,10.1,13.4]
-deva = [0.5,0.3,2.1,0.9,2.0,2.1,0.6,1.3,2.4,2.1,0.6,0.7,1.4,1.5,0.9,2.3,1.4,1.6]
-gp = [1.2,0.3,0.8,0.2,2.5,1.0,0.6,0.5,0,1.1,2.7,1.8,0.9,1.3,0.4,2.5,1.1,1.0]
-sp = [1.0,0.3,0.9,0.9,0.7,0.9,0.8,0.6,0,1.1,0.4,0.3,1.4,0,0.6,0,0.7,0.8]
-dp = [0.2,0,0.5,0,0,0.4,0,0,0,0,0,0,0,0,0,0,0.4,0]
-hdp_ysp = [11.6,9.8,9.5,10.2,10.2,9.3,9.3,10.3,10.8,9.7,11.6,9.6,10.2,10.3,11.3,10.5,10.3,10.2]
-tip = [1.0,3.3,0.7,1.6,1.6,1.5,1.4,0.3,1.9,3.1,0,1.9,1.5,1.191,0,0.4,1.6,0.9]
-zp = [0.3,0.9,0.3,1.0,0.4,1.5,1.0,1.0,0,0.5,0,0.8,1.1,1.6,1.4,2.0,1.5,1.6]
-mp = [3.2,3.6,5.2,1.6,5.5,2.3,1.0,3.0,4.7,2.3,3.1,4.6,1.6,2.2,1.1,1.3,3.5,1.5]
-tdp = [0,0,0,0,0,1.3,0.1,0,0,0,1.1,0,0,0.9,0.1,1.8,0.8,0.9]
-btp = [0.9,0.9,0,0,0.2,1.0,1.2,0,0,0,1.8,0,0,0,0,0,1.0,0]
-other = [1.0,0.4,1.3,1.4,1.2,9.7,1.4,2.8,0.2,2.3,1.4,0.4,6.3,2.0,1.2,3.5,0.6,2.6]
-
 population = 85279553
 
 voterPop = int(population*75.27/100)
@@ -51,23 +34,23 @@ atai = 0
 allV = 0
 bgmsz = 0
 
-voteAKP = akp[randrange(18)] 
-voteMHP = mhp[randrange(18)] 
-voteBBP = bbp[randrange(18)] 
-voteYRP = yrp[randrange(18)] 
-voteCHP = chp[randrange(18)] 
-voteIYI= iyi[randrange(18)] 
-voteDEVA = deva[randrange(18)] 
-voteGP = gp[randrange(18)] 
-voteSP = sp[randrange(18)] 
-voteDP = dp[randrange(18)] 
-voteHDP = hdp_ysp[randrange(18)] 
-voteTIP = tip[randrange(18)] 
-voteZP = zp[randrange(18)] 
-voteMP = mp[randrange(18)] 
-voteTDP = tdp[randrange(18)] 
-voteBTP = btp[randrange(18)] 
-voteOTHER = other[randrange(18)] 
+voteAKP = datas.akp[randrange(18)] 
+voteMHP = datas.mhp[randrange(18)] 
+voteBBP = datas.bbp[randrange(18)] 
+voteYRP = datas.yrp[randrange(18)] 
+voteCHP = datas.chp[randrange(18)] 
+voteIYI= datas.iyi[randrange(18)] 
+voteDEVA = datas.deva[randrange(18)] 
+voteGP = datas.gp[randrange(18)] 
+voteSP = datas.sp[randrange(18)] 
+voteDP = datas.dp[randrange(18)] 
+voteHDP = datas.hdp_ysp[randrange(18)] 
+voteTIP = datas.tip[randrange(18)] 
+voteZP = datas.zp[randrange(18)] 
+voteMP = datas.mp[randrange(18)] 
+voteTDP = datas.tdp[randrange(18)] 
+voteBTP = datas.btp[randrange(18)] 
+voteOTHER = datas.other[randrange(18)] 
 
 allV = voteAKP + voteMHP + voteBBP + voteYRP + voteCHP + voteIYI + voteDEVA + voteGP + voteSP + voteDP + voteHDP \
     + voteTIP + voteZP + voteMP + voteTDP + voteBTP + voteOTHER
