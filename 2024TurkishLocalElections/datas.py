@@ -1,1 +1,0 @@
-# Datalari filedan çek
