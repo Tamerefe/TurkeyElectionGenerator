@@ -1,9 +1,52 @@
-# Election Polls Analysis Tool
+# Turkey Election Generator
 
-*This Python tool is designed to analyze Turkey's 2018, 2019, 2023, and 2024 election polls. By using the tool, you can get a general idea with poll predictions before the elections, analyze them, and obtain various statistics.*
+*A comprehensive suite of tools for simulating and analyzing Turkish elections across multiple years (2015-2024). This project provides statistical analysis, visualization, and predictions based on polling data.*
 
+## Table of Contents
+- [Overview](#overview)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Installation Requirements](#installation-requirements)
+- [Usage Guide](#usage-guide)
+- [Data Information](#data-information)
+- [License](#license)
+- [Support](#support)
 
-## General information
+## Overview
+
+The Turkey Election Generator is a collection of tools designed to analyze, simulate, and visualize Turkish election outcomes based on polling data. The project covers different Turkish elections from 2015 to 2024, including both general and local elections. Using these tools, you can generate predictions, analyze polling trends, and visualize potential election outcomes.
+
+## Project Structure
+
+The project is organized into the following directories:
+
+- `data/`: Contains all the polling data and election results.
+- `scripts/`: Includes Python scripts for data analysis and visualization.
+- `docs/`: Documentation and resources related to the project.
+- `tests/`: Unit tests for the project's functionality.
+
+## Features
+
+- **Polling Data Analysis**: Analyze polling data to identify trends and patterns.
+- **Election Simulation**: Simulate election outcomes based on polling data.
+- **Visualization Tools**: Generate visual representations of polling data and election predictions.
+- **Statistical Analysis**: Perform statistical analysis on polling data to make informed predictions.
+
+## Installation Requirements
+
+- Python 3.x
+- C
+- Java
+
+## Usage Guide
+
+To use the Turkey Election Generator, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Run the analysis scripts located in the `scripts/` directory to generate predictions and visualizations.
+
+## Data Information
 
 1. The following points are taken into consideration when conducting surveys:
 
@@ -13,12 +56,9 @@
     - If the company conducting the survey is actively registered in Turkey and the survey results can be confirmed from reliable sources, it is added to the list regardless of how biased or unbiased its results appear.
     - If the company conducting the survey has political connections that can be confirmed from reliable sources, it is stated as a note.
 
+## License
 
-## Requirements
-
-- Python 3.x
-- C
-- Java
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Support
 
