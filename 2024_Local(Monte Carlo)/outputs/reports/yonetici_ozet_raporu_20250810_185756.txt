@@ -1,0 +1,69 @@
+🗳️  ======================================================================
+2024 TÜRKİYE YEREL SEÇİMLERİ
+YÖNETİCİ ÖZET RAPORU
+Gelişmiş Monte Carlo Analizi Sonuçları
+============================================================================
+
+📅 Rapor Tarihi: 10/08/2025
+📊 Analiz Kapsamı: 51 İl
+🔬 Metodoloji: Monte Carlo Simülasyonu (50,000 iterasyon/il)
+
+🔍 ANAHTAR BULGULAR
+----------------------------------------
+• Toplam 51 il analiz edildi
+• 16 il çekişmeli yarış gösteriyor (%31.4)
+• En güçlü parti: AKP (8 il)
+• En çekişmeli şehir: Adana
+
+🏆 PARTİ PERFORMANS TABLOSU
+----------------------------------------
+ 1.      AKP:  8 il (%15.7)
+ 2.      HDP:  7 il (%13.7)
+ 3.      YRP:  6 il (%11.8)
+ 4.      DEM:  5 il (% 9.8)
+ 5.      CHP:  2 il (% 3.9)
+ 6.       ZP:  1 il (% 2.0)
+ 7.      İYİ:  1 il (% 2.0)
+
+⚡ EN ÇEKİŞMELİ 10 YARIŞ
+----------------------------------------
+İl              Öndeki Parti Olasılık   Fark    
+-------------------------------------------
+Isparta         HDP        46.9%      0.6%    
+Bilecik         YRP        51.4%      2.9%    
+Giresun         AKP        48.0%      3.2%    
+Niğde           YRP        42.7%      12.1%   
+Tekirdağ        AKP        47.0%      12.2%   
+Mersin          YRP        44.6%      12.9%   
+Uşak            AKP        41.4%      13.5%   
+Adana           HDP        52.2%      14.0%   
+Bursa           YRP        44.7%      14.1%   
+Samsun          YRP        55.2%      14.2%   
+
+⚠️  RİSK DEĞERLENDİRMESİ
+----------------------------------------
+🔴 18 ilde yetersiz anket verisi
+🔴 10 ilde yüksek belirsizlik
+🔴 Son dakika gelişmeleri sonuçları değiştirebilir
+
+💡 STRATEJİK ÖNERİLER
+----------------------------------------
+1. Çekişmeli şehirlerde yoğun saha çalışması yapılmalı
+2. Yetersiz anket verisi olan illerde ek araştırma gerekli
+3. Son 2 hafta kritik - günlük izleme önerilir
+4. Katılım oranı stratejileri gözden geçirilmeli
+5. Kararsız seçmen profili detaylı analiz edilmeli
+
+📋 METODOLOJİ NOTU
+----------------------------------------
+Bu analiz, mevcut anket verilerini kullanarak Monte Carlo
+simülasyon tekniği ile gerçekleştirilmiştir. Sonuçlar:
+• Anket hatası, örnekleme yanlılığı ve belirsizlik faktörleri
+• Kararsız seçmen dağılımı senaryoları
+• Katılım oranı değişkenleri
+• Son dakika oy değişimi olasılıkları
+parametreleri ile hesaplanmıştır.
+
+⚖️  Yasal Uyarı: Bu analiz akademik amaçlıdır ve kesin
+sonuç garantisi vermez. Gerçek seçim sonuçları farklılık
+gösterebilir.

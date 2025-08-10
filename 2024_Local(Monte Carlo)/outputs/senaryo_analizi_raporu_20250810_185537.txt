@@ -1,0 +1,185 @@
+================================================================================
+2024 YEREL SEÇİMLERİ SENARYO ANALİZİ RAPORU
+Gelişmiş Risk Değerlendirmesi ve Öngörü Analizi
+================================================================================
+Oluşturulma Tarihi: 10/08/2025 18:55:37
+
+RİSK DEĞERLENDİRMESİ ÖZETİ
+----------------------------------------
+🔴 Yüksek Risk (3 il): İstanbul, Antalya, Hatay
+🟡 Orta Risk (5 il): Ankara, Bursa, Adana, Konya, Şanlıurfa
+🟢 Düşük Risk (2 il): İzmir, Gaziantep
+
+DETAYLI SENARYO ANALİZLERİ
+================================================================================
+
+ADANA
+-----
+Risk Seviyesi: Orta (Skor: 0.57)
+En Kritik Faktör: competitiveness (1.00)
+
+Katılım Senaryoları:
+  Katılım %60: HDP (%29.0)
+  Katılım %70: HDP (%29.4)
+  Katılım %80: HDP (%29.8)
+  Katılım %85: HDP (%30.0)
+
+Swing Analizi:
+  AKP: 1 farklı sonuç - Düşük volatilite
+  CHP: 1 farklı sonuç - Düşük volatilite
+  İYİ: 1 farklı sonuç - Düşük volatilite
+  MHP: 1 farklı sonuç - Düşük volatilite
+
+ANKARA
+------
+Risk Seviyesi: Orta (Skor: 0.37)
+En Kritik Faktör: competitiveness (0.60)
+
+Katılım Senaryoları:
+  Katılım %60: ZP (%39.5)
+  Katılım %70: ZP (%39.5)
+  Katılım %80: ZP (%39.6)
+  Katılım %85: ZP (%39.6)
+
+Swing Analizi:
+  AKP: 1 farklı sonuç - Düşük volatilite
+  CHP: 1 farklı sonuç - Düşük volatilite
+  İYİ: 1 farklı sonuç - Düşük volatilite
+  MHP: 1 farklı sonuç - Düşük volatilite
+
+ANTALYA
+-------
+Risk Seviyesi: Yüksek (Skor: 0.76)
+En Kritik Faktör: competitiveness (1.00)
+
+Katılım Senaryoları:
+  Katılım %60: AKP (%18.1)
+  Katılım %70: AKP (%17.6)
+  Katılım %80: AKP (%17.1)
+  Katılım %85: AKP (%16.8)
+
+Swing Analizi:
+  AKP: 2 farklı sonuç - Orta volatilite
+  CHP: 2 farklı sonuç - Orta volatilite
+  İYİ: 2 farklı sonuç - Orta volatilite
+  MHP: 1 farklı sonuç - Düşük volatilite
+
+BURSA
+-----
+Risk Seviyesi: Orta (Skor: 0.58)
+En Kritik Faktör: competitiveness (1.00)
+
+Katılım Senaryoları:
+  Katılım %60: YRP (%21.3)
+  Katılım %70: YRP (%21.2)
+  Katılım %80: YRP (%21.2)
+  Katılım %85: YRP (%21.2)
+
+Swing Analizi:
+  AKP: 1 farklı sonuç - Düşük volatilite
+  CHP: 1 farklı sonuç - Düşük volatilite
+  İYİ: 1 farklı sonuç - Düşük volatilite
+  MHP: 1 farklı sonuç - Düşük volatilite
+
+GAZIANTEP
+---------
+Risk Seviyesi: Düşük (Skor: 0.17)
+En Kritik Faktör: scenario_sensitivity (0.25)
+
+Katılım Senaryoları:
+  Katılım %60: AKP (%40.1)
+  Katılım %70: AKP (%39.3)
+  Katılım %80: AKP (%38.6)
+  Katılım %85: AKP (%38.2)
+
+Swing Analizi:
+  AKP: 1 farklı sonuç - Düşük volatilite
+  CHP: 1 farklı sonuç - Düşük volatilite
+  İYİ: 1 farklı sonuç - Düşük volatilite
+  MHP: 1 farklı sonuç - Düşük volatilite
+
+HATAY
+-----
+Risk Seviyesi: Yüksek (Skor: 0.70)
+En Kritik Faktör: competitiveness (1.00)
+
+Katılım Senaryoları:
+  Katılım %60: AKP (%22.6)
+  Katılım %70: AKP (%22.0)
+  Katılım %80: AKP (%21.4)
+  Katılım %85: AKP (%21.1)
+
+Swing Analizi:
+  AKP: 2 farklı sonuç - Orta volatilite
+  CHP: 2 farklı sonuç - Orta volatilite
+  İYİ: 2 farklı sonuç - Orta volatilite
+  MHP: 1 farklı sonuç - Düşük volatilite
+
+KONYA
+-----
+Risk Seviyesi: Orta (Skor: 0.50)
+En Kritik Faktör: volatility (0.68)
+
+Katılım Senaryoları:
+  Katılım %60: AKP (%35.6)
+  Katılım %70: AKP (%35.0)
+  Katılım %80: AKP (%34.3)
+  Katılım %85: AKP (%33.9)
+
+Swing Analizi:
+  AKP: 2 farklı sonuç - Orta volatilite
+  CHP: 1 farklı sonuç - Düşük volatilite
+  İYİ: 2 farklı sonuç - Orta volatilite
+  MHP: 1 farklı sonuç - Düşük volatilite
+
+İSTANBUL
+--------
+Risk Seviyesi: Yüksek (Skor: 0.61)
+En Kritik Faktör: competitiveness (1.00)
+
+Katılım Senaryoları:
+  Katılım %60: DEM (%24.3)
+  Katılım %70: DEM (%24.7)
+  Katılım %80: DEM (%25.1)
+  Katılım %85: DEM (%25.3)
+
+Swing Analizi:
+  AKP: 1 farklı sonuç - Düşük volatilite
+  CHP: 1 farklı sonuç - Düşük volatilite
+  İYİ: 1 farklı sonuç - Düşük volatilite
+  MHP: 1 farklı sonuç - Düşük volatilite
+
+İZMIR
+-----
+Risk Seviyesi: Düşük (Skor: 0.25)
+En Kritik Faktör: polling_reliability (0.50)
+
+Katılım Senaryoları:
+  Katılım %60: DEM (%31.0)
+  Katılım %70: DEM (%31.5)
+  Katılım %80: DEM (%32.0)
+  Katılım %85: DEM (%32.3)
+
+Swing Analizi:
+  AKP: 1 farklı sonuç - Düşük volatilite
+  CHP: 1 farklı sonuç - Düşük volatilite
+  İYİ: 1 farklı sonuç - Düşük volatilite
+  MHP: 1 farklı sonuç - Düşük volatilite
+
+ŞANLIURFA
+---------
+Risk Seviyesi: Orta (Skor: 0.55)
+En Kritik Faktör: volatility (0.60)
+
+Katılım Senaryoları:
+  Katılım %60: AKP (%38.1)
+  Katılım %70: AKP (%37.5)
+  Katılım %80: AKP (%36.9)
+  Katılım %85: AKP (%36.5)
+
+Swing Analizi:
+  AKP: 2 farklı sonuç - Orta volatilite
+  CHP: 1 farklı sonuç - Düşük volatilite
+  İYİ: 1 farklı sonuç - Düşük volatilite
+  MHP: 2 farklı sonuç - Orta volatilite
+

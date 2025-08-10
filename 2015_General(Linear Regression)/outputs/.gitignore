@@ -1,0 +1,10 @@
+# Outputs klasörü - otomatik oluşturulan dosyalar
+outputs/graphs/*.png
+outputs/graphs/*.jpg
+outputs/models/*.pkl
+outputs/reports/*.txt
+outputs/reports/*.log
+
+# Önemli dosyaları koru
+!outputs/README.md
+!outputs/**/README.md

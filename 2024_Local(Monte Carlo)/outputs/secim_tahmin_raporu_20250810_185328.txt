@@ -1,0 +1,442 @@
+================================================================================
+2024 TÜRKİYE YEREL SEÇİMLERİ TAHMİN RAPORU
+Gelişmiş Monte Carlo Simülasyon Analizi
+================================================================================
+Oluşturulma Tarihi: 10/08/2025 18:53:28
+Analiz Edilen İl Sayısı: 51
+Toplam Simülasyon: 50,000 (il başına)
+
+GENEL ÖZET
+----------------------------------------
+Parti Bazında Kazanım Projeksiyonu:
+  YRP: 10 il (%19.6)
+  HDP: 8 il (%15.7)
+  AKP: 8 il (%15.7)
+  DEM: 6 il (%11.8)
+  CHP: 2 il (%3.9)
+  ZP: 1 il (%2.0)
+  İYİ: 1 il (%2.0)
+  Belirsiz/Çekişmeli: 15 il (%29.4)
+
+İL BAZINDA DETAYLI ANALİZ
+================================================================================
+
+ADANA
+-----
+Kazanma Olasılıkları:
+  1. HDP: %52.2 kazanma | Oy: %28.2 (95% GA: %0.0-%56.4)
+  2. DEM: %38.2 kazanma | Oy: %21.9 (95% GA: %0.0-%44.9)
+  3. AKP: %5.6 kazanma | Oy: %15.9 (95% GA: %6.5-%31.9)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ✅ Yeterli anket verisi (16 anket) - güvenilir tahmin
+
+ANKARA
+------
+Kazanma Olasılıkları:
+  1. ZP: %72.2 kazanma | Oy: %35.5 (95% GA: %0.0-%67.4)
+  2. YRP: %14.4 kazanma | Oy: %12.0 (95% GA: %0.0-%35.4)
+  3. AKP: %9.6 kazanma | Oy: %14.8 (95% GA: %6.9-%29.6)
+  📊 KARARSIZ: Sonuç belirsiz, kampanya önemli
+  ✅ Yeterli anket verisi (37 anket) - güvenilir tahmin
+
+ANTALYA
+-------
+Kazanma Olasılıkları:
+  1. ZP: %39.4 kazanma | Oy: %17.0 (95% GA: %0.0-%44.1)
+  2. YRP: %23.1 kazanma | Oy: %13.6 (95% GA: %0.1-%34.2)
+  3. AKP: %18.5 kazanma | Oy: %16.8 (95% GA: %6.5-%30.1)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ✅ Yeterli anket verisi (24 anket) - güvenilir tahmin
+
+AYDIN
+-----
+Kazanma Olasılıkları:
+  1. AKP: %87.4 kazanma | Oy: %38.4 (95% GA: %30.6-%46.2)
+  2. CHP: %12.6 kazanma | Oy: %31.1 (95% GA: %24.2-%38.3)
+  3. İYİ: %0.0 kazanma | Oy: %16.5 (95% GA: %10.6-%23.1)
+  🏆 NET ÖNDE: AKP güçlü favoride
+  ✅ Yeterli anket verisi (11 anket) - güvenilir tahmin
+
+BALIKESIR
+---------
+Kazanma Olasılıkları:
+  1. AKP: %29.3 kazanma | Oy: %24.9 (95% GA: %10.3-%42.3)
+  2. HDP: %25.2 kazanma | Oy: %12.1 (95% GA: %0.0-%49.4)
+  3. İYİ: %21.1 kazanma | Oy: %22.9 (95% GA: %9.0-%40.0)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ✅ Yeterli anket verisi (17 anket) - güvenilir tahmin
+
+BILECIK
+-------
+Kazanma Olasılıkları:
+  1. YRP: %51.4 kazanma | Oy: %24.1 (95% GA: %4.7-%32.6)
+  2. DEM: %48.6 kazanma | Oy: %27.9 (95% GA: %23.2-%36.1)
+  3. AKP: %0.0 kazanma | Oy: %15.4 (95% GA: %9.4-%22.4)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ⚠️  Az anket verisi (2 anket) - sonuçlar dikkatli yorumlanmalı
+
+BOLU
+----
+Kazanma Olasılıkları:
+  1. YRP: %58.5 kazanma | Oy: %28.9 (95% GA: %0.0-%65.6)
+  2. AKP: %38.3 kazanma | Oy: %21.9 (95% GA: %10.5-%34.9)
+  3. CHP: %2.9 kazanma | Oy: %16.3 (95% GA: %6.9-%28.5)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+BURDUR
+------
+Kazanma Olasılıkları:
+  1. HDP: %83.0 kazanma | Oy: %34.5 (95% GA: %6.3-%44.0)
+  2. AKP: %15.2 kazanma | Oy: %23.3 (95% GA: %18.0-%34.0)
+  3. CHP: %1.0 kazanma | Oy: %19.8 (95% GA: %15.8-%28.8)
+  🏆 NET ÖNDE: HDP güçlü favoride
+  ⚠️  Az anket verisi (2 anket) - sonuçlar dikkatli yorumlanmalı
+
+BURSA
+-----
+Kazanma Olasılıkları:
+  1. YRP: %44.7 kazanma | Oy: %21.4 (95% GA: %0.0-%56.3)
+  2. DEM: %30.6 kazanma | Oy: %18.0 (95% GA: %0.0-%44.5)
+  3. AKP: %9.9 kazanma | Oy: %15.4 (95% GA: %5.7-%30.8)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ✅ Yeterli anket verisi (32 anket) - güvenilir tahmin
+
+DENIZLI
+-------
+Kazanma Olasılıkları:
+  1. CHP: %30.8 kazanma | Oy: %24.9 (95% GA: %15.2-%38.1)
+  2. HDP: %23.1 kazanma | Oy: %14.8 (95% GA: %0.0-%40.2)
+  3. DEM: %23.1 kazanma | Oy: %14.4 (95% GA: %0.0-%40.4)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+DIYARBAKIR
+----------
+Kazanma Olasılıkları:
+  1. DEM: %99.8 kazanma | Oy: %55.4 (95% GA: %41.8-%71.5)
+  2. HDP: %0.2 kazanma | Oy: %18.0 (95% GA: %0.0-%32.8)
+  🏆 NET ÖNDE: DEM güçlü favoride
+
+DÜZCE
+-----
+Kazanma Olasılıkları:
+  1. YRP: %66.7 kazanma | Oy: %35.5 (95% GA: %16.1-%49.2)
+  2. HDP: %33.3 kazanma | Oy: %31.5 (95% GA: %24.6-%41.3)
+  📊 KARARSIZ: Sonuç belirsiz, kampanya önemli
+  ⚠️  Az anket verisi (2 anket) - sonuçlar dikkatli yorumlanmalı
+
+EDIRNE
+------
+Kazanma Olasılıkları:
+  1. HDP: %84.8 kazanma | Oy: %38.0 (95% GA: %4.8-%57.3)
+  2. MHP: %6.8 kazanma | Oy: %17.9 (95% GA: %8.5-%30.6)
+  3. CHP: %5.1 kazanma | Oy: %18.5 (95% GA: %11.7-%29.3)
+  🏆 NET ÖNDE: HDP güçlü favoride
+
+ELAZIĞ
+------
+Kazanma Olasılıkları:
+  1. YRP: %84.8 kazanma | Oy: %42.4 (95% GA: %3.0-%62.2)
+  2. HDP: %15.2 kazanma | Oy: %23.3 (95% GA: %15.3-%38.7)
+  🏆 NET ÖNDE: YRP güçlü favoride
+
+ERZURUM
+-------
+Kazanma Olasılıkları:
+  1. AKP: %95.4 kazanma | Oy: %35.1 (95% GA: %27.2-%43.4)
+  2. MHP: %1.8 kazanma | Oy: %24.8 (95% GA: %18.7-%31.5)
+  3. İYİ: %1.8 kazanma | Oy: %22.4 (95% GA: %15.0-%30.4)
+  🏆 NET ÖNDE: AKP güçlü favoride
+
+ESKIŞEHIR
+---------
+Kazanma Olasılıkları:
+  1. HDP: %70.6 kazanma | Oy: %32.0 (95% GA: %0.0-%58.2)
+  2. DEM: %15.7 kazanma | Oy: %16.7 (95% GA: %2.0-%35.4)
+  3. AKP: %7.8 kazanma | Oy: %16.9 (95% GA: %8.6-%30.1)
+  📊 KARARSIZ: Sonuç belirsiz, kampanya önemli
+
+GAZIANTEP
+---------
+Kazanma Olasılıkları:
+  1. AKP: %99.1 kazanma | Oy: %36.5 (95% GA: %30.6-%42.6)
+  2. İYİ: %0.9 kazanma | Oy: %21.8 (95% GA: %13.9-%29.7)
+  3. MHP: %0.0 kazanma | Oy: %18.0 (95% GA: %13.0-%23.4)
+  🏆 NET ÖNDE: AKP güçlü favoride
+
+GIRESUN
+-------
+Kazanma Olasılıkları:
+  1. AKP: %48.0 kazanma | Oy: %24.5 (95% GA: %15.1-%34.1)
+  2. CHP: %44.8 kazanma | Oy: %24.2 (95% GA: %14.6-%33.9)
+  3. HDP: %3.5 kazanma | Oy: %17.3 (95% GA: %10.9-%24.6)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+HATAY
+-----
+Kazanma Olasılıkları:
+  1. İYİ: %41.0 kazanma | Oy: %19.4 (95% GA: %0.2-%39.1)
+  2. AKP: %26.5 kazanma | Oy: %21.5 (95% GA: %8.5-%37.3)
+  3. CHP: %21.9 kazanma | Oy: %17.6 (95% GA: %1.6-%35.9)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ✅ Yeterli anket verisi (40 anket) - güvenilir tahmin
+
+ISPARTA
+-------
+Kazanma Olasılıkları:
+  1. HDP: %46.9 kazanma | Oy: %21.8 (95% GA: %0.0-%54.4)
+  2. YRP: %46.3 kazanma | Oy: %23.9 (95% GA: %7.1-%40.6)
+  3. AKP: %5.1 kazanma | Oy: %14.6 (95% GA: %8.0-%23.2)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+KAHRAMANMARAŞ
+-------------
+Kazanma Olasılıkları:
+  1. YRP: %95.9 kazanma | Oy: %56.6 (95% GA: %34.4-%74.6)
+  2. DEM: %4.1 kazanma | Oy: %15.9 (95% GA: %0.0-%40.4)
+  3. AKP: %0.0 kazanma | Oy: %10.2 (95% GA: %6.1-%16.5)
+  🏆 NET ÖNDE: YRP güçlü favoride
+
+KARS
+----
+Kazanma Olasılıkları:
+  1. HDP: %34.8 kazanma | Oy: %17.6 (95% GA: %2.2-%36.9)
+  2. MHP: %26.4 kazanma | Oy: %20.0 (95% GA: %13.3-%27.9)
+  3. İYİ: %16.1 kazanma | Oy: %18.7 (95% GA: %11.8-%26.7)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+KAYSERI
+-------
+Kazanma Olasılıkları:
+  1. AKP: %98.0 kazanma | Oy: %43.9 (95% GA: %30.8-%55.5)
+  2. İYİ: %1.4 kazanma | Oy: %10.4 (95% GA: %0.3-%29.7)
+  3. MHP: %0.5 kazanma | Oy: %23.7 (95% GA: %16.9-%31.5)
+  🏆 NET ÖNDE: AKP güçlü favoride
+
+KOCAELI
+-------
+Kazanma Olasılıkları:
+  1. YRP: %58.0 kazanma | Oy: %32.1 (95% GA: %1.5-%52.1)
+  2. DEM: %41.9 kazanma | Oy: %30.0 (95% GA: %13.7-%47.5)
+  3. AKP: %0.1 kazanma | Oy: %10.3 (95% GA: %5.9-%16.7)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+KONYA
+-----
+Kazanma Olasılıkları:
+  1. AKP: %62.7 kazanma | Oy: %32.1 (95% GA: %20.1-%43.9)
+  2. İYİ: %31.1 kazanma | Oy: %27.8 (95% GA: %16.9-%39.0)
+  3. MHP: %6.1 kazanma | Oy: %22.4 (95% GA: %14.2-%31.7)
+  📊 KARARSIZ: Sonuç belirsiz, kampanya önemli
+
+KIRKLARELI
+----------
+Kazanma Olasılıkları:
+  1. HDP: %100.0 kazanma | Oy: %35.6 (95% GA: %31.8-%39.3)
+  ⚠️  Az anket verisi (2 anket) - sonuçlar dikkatli yorumlanmalı
+
+KIRIKKALE
+---------
+Kazanma Olasılıkları:
+  1. DEM: %88.9 kazanma | Oy: %35.2 (95% GA: %0.0-%44.1)
+  2. AKP: %7.2 kazanma | Oy: %16.4 (95% GA: %10.5-%28.2)
+  3. İYİ: %1.8 kazanma | Oy: %13.9 (95% GA: %10.0-%23.5)
+  🏆 NET ÖNDE: DEM güçlü favoride
+
+MALATYA
+-------
+Kazanma Olasılıkları:
+  1. AKP: %69.0 kazanma | Oy: %33.2 (95% GA: %21.2-%45.2)
+  2. İYİ: %28.4 kazanma | Oy: %27.7 (95% GA: %16.8-%39.2)
+  3. CHP: %1.6 kazanma | Oy: %15.7 (95% GA: %6.6-%26.9)
+  📊 KARARSIZ: Sonuç belirsiz, kampanya önemli
+
+MANISA
+------
+Kazanma Olasılıkları:
+  1. HDP: %47.7 kazanma | Oy: %25.4 (95% GA: %0.0-%58.3)
+  2. MHP: %26.8 kazanma | Oy: %20.1 (95% GA: %0.4-%46.6)
+  3. CHP: %13.4 kazanma | Oy: %17.4 (95% GA: %2.4-%39.9)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ✅ Yeterli anket verisi (18 anket) - güvenilir tahmin
+
+MARDIN
+------
+Kazanma Olasılıkları:
+  1. CHP: %97.1 kazanma | Oy: %39.3 (95% GA: %29.6-%49.6)
+  2. MHP: %1.6 kazanma | Oy: %19.5 (95% GA: %8.9-%31.1)
+  3. AKP: %1.3 kazanma | Oy: %19.8 (95% GA: %9.9-%30.6)
+  🏆 NET ÖNDE: CHP güçlü favoride
+
+MERSIN
+------
+Kazanma Olasılıkları:
+  1. YRP: %44.6 kazanma | Oy: %23.3 (95% GA: %0.0-%56.2)
+  2. DEM: %31.7 kazanma | Oy: %23.1 (95% GA: %0.0-%46.1)
+  3. İYİ: %21.1 kazanma | Oy: %20.8 (95% GA: %2.0-%39.8)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ✅ Yeterli anket verisi (15 anket) - güvenilir tahmin
+
+MUĞLA
+-----
+Kazanma Olasılıkları:
+  1. HDP: %61.7 kazanma | Oy: %35.3 (95% GA: %0.0-%70.5)
+  2. DEM: %30.4 kazanma | Oy: %23.8 (95% GA: %0.0-%56.8)
+  3. İYİ: %3.7 kazanma | Oy: %9.1 (95% GA: %0.1-%29.9)
+  📊 KARARSIZ: Sonuç belirsiz, kampanya önemli
+  ✅ Yeterli anket verisi (17 anket) - güvenilir tahmin
+
+NEVŞEHIR
+--------
+Kazanma Olasılıkları:
+  1. DEM: %98.7 kazanma | Oy: %48.8 (95% GA: %28.5-%64.7)
+  2. AKP: %0.7 kazanma | Oy: %14.3 (95% GA: %5.7-%24.9)
+  3. HDP: %0.3 kazanma | Oy: %12.2 (95% GA: %5.0-%21.5)
+  🏆 NET ÖNDE: DEM güçlü favoride
+
+NIĞDE
+-----
+Kazanma Olasılıkları:
+  1. YRP: %42.7 kazanma | Oy: %21.7 (95% GA: %0.0-%55.4)
+  2. AKP: %30.6 kazanma | Oy: %21.8 (95% GA: %2.3-%43.5)
+  3. HDP: %21.9 kazanma | Oy: %21.4 (95% GA: %6.7-%41.3)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+ORDU
+----
+Kazanma Olasılıkları:
+  1. HDP: %89.1 kazanma | Oy: %52.1 (95% GA: %0.0-%75.4)
+  2. AKP: %8.3 kazanma | Oy: %16.7 (95% GA: %7.4-%36.3)
+  3. MHP: %1.8 kazanma | Oy: %11.0 (95% GA: %3.0-%26.6)
+  🏆 NET ÖNDE: HDP güçlü favoride
+  ✅ Yeterli anket verisi (17 anket) - güvenilir tahmin
+
+SAKARYA
+-------
+Kazanma Olasılıkları:
+  1. DEM: %93.9 kazanma | Oy: %55.5 (95% GA: %38.0-%75.3)
+  2. HDP: %6.1 kazanma | Oy: %23.3 (95% GA: %0.0-%45.0)
+  🏆 NET ÖNDE: DEM güçlü favoride
+
+SAMSUN
+------
+Kazanma Olasılıkları:
+  1. YRP: %55.2 kazanma | Oy: %32.6 (95% GA: %0.0-%62.3)
+  2. HDP: %41.0 kazanma | Oy: %27.3 (95% GA: %0.0-%57.7)
+  3. AKP: %1.4 kazanma | Oy: %11.1 (95% GA: %5.4-%22.7)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ✅ Yeterli anket verisi (21 anket) - güvenilir tahmin
+
+SINOP
+-----
+Kazanma Olasılıkları:
+  1. DEM: %36.3 kazanma | Oy: %16.4 (95% GA: %0.0-%46.7)
+  2. AKP: %34.3 kazanma | Oy: %23.4 (95% GA: %13.9-%32.8)
+  3. CHP: %27.5 kazanma | Oy: %23.1 (95% GA: %14.4-%31.3)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+SIVAS
+-----
+Kazanma Olasılıkları:
+  1. YRP: %100.0 kazanma | Oy: %42.8 (95% GA: %32.2-%51.9)
+  2. HDP: %0.0 kazanma | Oy: %13.4 (95% GA: %10.9-%16.5)
+  3. İYİ: %0.0 kazanma | Oy: %12.8 (95% GA: %7.8-%18.2)
+  🏆 NET ÖNDE: YRP güçlü favoride
+
+TEKIRDAĞ
+--------
+Kazanma Olasılıkları:
+  1. AKP: %47.0 kazanma | Oy: %32.1 (95% GA: %16.9-%50.2)
+  2. MHP: %34.8 kazanma | Oy: %24.9 (95% GA: %2.1-%49.8)
+  3. CHP: %15.9 kazanma | Oy: %26.3 (95% GA: %14.6-%42.0)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+TOKAT
+-----
+Kazanma Olasılıkları:
+  1. YRP: %85.2 kazanma | Oy: %35.2 (95% GA: %0.0-%55.1)
+  2. CHP: %9.5 kazanma | Oy: %16.6 (95% GA: %10.2-%26.1)
+  3. AKP: %5.0 kazanma | Oy: %15.6 (95% GA: %10.1-%24.2)
+  🏆 NET ÖNDE: YRP güçlü favoride
+  ⚠️  Az anket verisi (2 anket) - sonuçlar dikkatli yorumlanmalı
+
+TRABZON
+-------
+Kazanma Olasılıkları:
+  1. AKP: %95.0 kazanma | Oy: %37.0 (95% GA: %28.6-%46.1)
+  2. İYİ: %4.6 kazanma | Oy: %20.9 (95% GA: %9.6-%33.0)
+  3. MHP: %0.3 kazanma | Oy: %22.4 (95% GA: %16.4-%29.2)
+  🏆 NET ÖNDE: AKP güçlü favoride
+
+UŞAK
+----
+Kazanma Olasılıkları:
+  1. AKP: %41.4 kazanma | Oy: %25.3 (95% GA: %16.0-%37.1)
+  2. CHP: %27.9 kazanma | Oy: %22.9 (95% GA: %11.9-%36.0)
+  3. HDP: %25.1 kazanma | Oy: %18.4 (95% GA: %2.7-%37.6)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+VAN
+---
+Kazanma Olasılıkları:
+  1. CHP: %98.1 kazanma | Oy: %39.4 (95% GA: %31.7-%47.8)
+  2. AKP: %1.9 kazanma | Oy: %24.3 (95% GA: %15.5-%33.6)
+  3. MHP: %0.0 kazanma | Oy: %15.4 (95% GA: %7.5-%24.3)
+  🏆 NET ÖNDE: CHP güçlü favoride
+
+YALOVA
+------
+Kazanma Olasılıkları:
+  1. İYİ: %99.8 kazanma | Oy: %44.3 (95% GA: %37.3-%48.5)
+  2. HDP: %0.2 kazanma | Oy: %1.6 (95% GA: %0.0-%16.4)
+  🏆 NET ÖNDE: İYİ güçlü favoride
+  ⚠️  Az anket verisi (2 anket) - sonuçlar dikkatli yorumlanmalı
+
+ZONGULDAK
+---------
+Kazanma Olasılıkları:
+  1. AKP: %47.9 kazanma | Oy: %18.9 (95% GA: %12.5-%25.3)
+  2. CHP: %27.1 kazanma | Oy: %17.7 (95% GA: %12.6-%22.9)
+  3. HDP: %12.5 kazanma | Oy: %16.4 (95% GA: %11.9-%21.1)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+  ⚠️  Az anket verisi (2 anket) - sonuçlar dikkatli yorumlanmalı
+
+ÇANAKKALE
+---------
+Kazanma Olasılıkları:
+  1. HDP: %86.9 kazanma | Oy: %49.8 (95% GA: %0.0-%74.9)
+  2. AKP: %9.4 kazanma | Oy: %17.1 (95% GA: %5.5-%38.5)
+  3. MHP: %2.1 kazanma | Oy: %11.4 (95% GA: %2.9-%27.5)
+  🏆 NET ÖNDE: HDP güçlü favoride
+
+ÇANKIRI
+-------
+Kazanma Olasılıkları:
+  1. YRP: %93.8 kazanma | Oy: %39.0 (95% GA: %13.0-%55.5)
+  2. HDP: %3.6 kazanma | Oy: %14.8 (95% GA: %9.3-%22.5)
+  3. İYİ: %2.5 kazanma | Oy: %13.8 (95% GA: %7.8-%21.8)
+  🏆 NET ÖNDE: YRP güçlü favoride
+
+İSTANBUL
+--------
+Kazanma Olasılıkları:
+  1. DEM: %54.9 kazanma | Oy: %23.1 (95% GA: %0.1-%42.2)
+  2. HDP: %25.4 kazanma | Oy: %20.6 (95% GA: %6.5-%36.5)
+  3. AKP: %11.2 kazanma | Oy: %18.3 (95% GA: %9.6-%30.4)
+  ⚡ ÇEKİŞMELİ YARIŞ: İlk iki parti arasında fark az!
+
+İZMIR
+-----
+Kazanma Olasılıkları:
+  1. DEM: %97.9 kazanma | Oy: %32.1 (95% GA: %26.2-%39.0)
+  2. AKP: %1.7 kazanma | Oy: %16.9 (95% GA: %6.4-%27.4)
+  3. CHP: %0.3 kazanma | Oy: %14.4 (95% GA: %5.1-%24.5)
+  🏆 NET ÖNDE: DEM güçlü favoride
+
+ŞANLIURFA
+---------
+Kazanma Olasılıkları:
+  1. AKP: %65.6 kazanma | Oy: %33.1 (95% GA: %10.0-%52.4)
+  2. MHP: %27.7 kazanma | Oy: %25.8 (95% GA: %13.4-%40.6)
+  3. İYİ: %4.1 kazanma | Oy: %17.8 (95% GA: %8.6-%30.0)
+  📊 KARARSIZ: Sonuç belirsiz, kampanya önemli
+

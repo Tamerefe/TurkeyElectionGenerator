@@ -1,0 +1,41 @@
+============================================================
+2024 TÜRKİYE YEREL SEÇİMLERİ ANKET VERİSİ ANALİZ RAPORU
+============================================================
+Rapor Tarihi: 10.08.2025 18:17:57
+
+📊 GENEL İSTATİSTİKLER
+------------------------------
+Toplam İl Sayısı: 52
+Toplam Anket Sayısı: 1075
+Ortalama Anket/İl: 20.7
+
+🏆 EN ÇOK ANKET YAPILAN İLLER (İlk 10)
+----------------------------------------
+ 1. Tum_Birlesik    - 609 anket
+ 2. Hatay           -  40 anket
+ 3. Ankara          -  38 anket
+ 4. Bursa           -  32 anket
+ 5. Antalya         -  25 anket
+ 6. Samsun          -  21 anket
+ 7. Balıkesir       -  18 anket
+ 8. Manisa          -  18 anket
+ 9. Muğla           -  17 anket
+10. Ordu            -  17 anket
+
+🎯 PARTİ ANALİZİ
+--------------------
+Tespit Edilen Parti Sayısı: 8
+Partiler: AKP, CHP, DEM, HDP, MHP, YRP, ZP, İYİ
+
+📝 İŞLEM KAYITLARI
+--------------------
+[18:17:57] İşleniyor: İstanbul_genel.csv
+[18:17:57] ✓ İstanbul: 4 anket, 11 sütun
+[18:17:57] İşleniyor: İzmir_genel.csv
+[18:17:57] ✓ İzmir: 3 anket, 12 sütun
+[18:17:57] İşleniyor: şanlıurfa_2024_anketler.csv
+[18:17:57] ✓ Şanlıurfa: 7 anket, 10 sütun
+[18:17:57] 📈 İşlem tamamlandı: 52 başarılı, 0 hatalı
+[18:17:57] 📋 Birleşik dosya oluşturuluyor...
+[18:17:57] ✓ Birleşik dosya oluşturuldu: 1075 toplam anket
+[18:17:57] 📊 Özet raporu oluşturuluyor...
