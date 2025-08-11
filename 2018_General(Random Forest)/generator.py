@@ -591,8 +591,13 @@ def main():
     # Predictor'ı başlat
     predictor = TurkeyElectionPredictor()
     
+    # Script'in bulunduğu dizini al ve CSV dosyasının tam yolunu oluştur
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_file_path = os.path.join(script_dir, "election", "all.csv")
+    
     # Veriyi yükle ve temizle
-    df = predictor.load_and_clean_data("election/all.csv")
+    df = predictor.load_and_clean_data(csv_file_path)
     if df is None:
         return
     

@@ -1,0 +1,57 @@
+================================================================================
+           TÜRKİYE 2018 SEÇİM TAHMİN RAPORU
+                Random Forest Analizi
+                  11.08.2025 20:22
+================================================================================
+
+ORTALAMA TAHMİN SONUÇLARI:
+----------------------------------------
+1. AKP            : % 43.4
+2. CHP            : % 22.8
+3. İYİ            : % 14.4
+4. HDP            : % 10.0
+5. MHP            : %  6.8
+6. SP             : %  2.6
+
+SENARYO KARŞILAŞTIRMASI:
+------------------------------------------------------------
+
+Yüksek Güvenilirlik Senaryosu:
+  AKP            : % 43.5
+  CHP            : % 22.0
+  İYİ            : % 14.2
+  HDP            : % 10.1
+  MHP            : %  7.8
+  SP             : %  2.6
+
+AKP Güçlü Senaryo:
+  AKP            : % 47.6
+  CHP            : % 21.0
+  İYİ            : % 13.3
+  HDP            : %  9.0
+  MHP            : %  6.7
+  SP             : %  2.4
+
+Muhalefet Güçlü Senaryo:
+  AKP            : % 40.2
+  CHP            : % 24.7
+  İYİ            : % 15.5
+  HDP            : % 11.0
+  MHP            : %  5.9
+  SP             : %  2.7
+
+Yakın Yarış Senaryosu:
+  AKP            : % 42.3
+  CHP            : % 23.4
+  İYİ            : % 14.7
+  HDP            : % 10.1
+  MHP            : %  6.9
+  SP             : %  2.6
+
+İSTATİSTİKSEL ANALİZ:
+----------------------------------------
+En Olası Kazanan: AKP (%43.4)
+En Kararlı Parti: SP (±0.1)
+En Değişken Parti: AKP (±2.7)
+
+Rapor oluşturma zamanı: 11.08.2025 20:22:47

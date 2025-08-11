@@ -1,0 +1,30 @@
+============================================================
+         TÜRKİYE 2015 SEÇİM TAHMİN RAPORU
+              Linear Regression Analizi
+                11.08.2025 20:26
+============================================================
+
+MODEL PERFORMANSLARI:
+------------------------------
+AK Parti       : R² = -81.525, RMSE = 15.46
+CHP            : R² = -24.532, RMSE =  3.56
+MHP            : R² = -217.917, RMSE = 20.22
+HDP            : R² = -158830.828, RMSE = 439.53
+
+2015 KASIM SEÇİM TAHMİNLERİ:
+------------------------------
+AK Parti       : % 41.9
+CHP            : % 26.3
+MHP            : % 15.5
+HDP            : %  9.6
+
+TAHMİN vs GERÇEK KARŞILAŞTIRMA:
+----------------------------------------
+AK Parti       : Tahmin=% 41.9, Gerçek=% 40.7, Fark= -1.2
+CHP            : Tahmin=% 26.3, Gerçek=% 25.1, Fark= -1.2
+MHP            : Tahmin=% 15.5, Gerçek=% 16.4, Fark= +0.9
+HDP            : Tahmin=%  9.6, Gerçek=% 13.0, Fark= +3.4
+
+Ortalama Mutlak Hata: 1.67 puan
+
+Rapor oluşturma zamanı: 11.08.2025 20:26:19

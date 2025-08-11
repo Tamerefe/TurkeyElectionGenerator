@@ -7,73 +7,6 @@ from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
-        """
-        Kapsamlı analiz raporunu kaydet
-        """
-        from datetime import datetime
-        
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        report_dir = os.path.join(script_dir, 'outputs', 'reports')
-        os.makedirs(report_dir, exist_ok=True)
-        
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        report_filename = f'comprehensive_analysis_report_{timestamp}.txt'
-        report_path = os.path.join(report_dir, report_filename)
-        
-        with open(report_path, 'w', encoding='utf-8') as f:
-            f.write("="*80 + "\n")
-            f.write("              KAPSAMLI TÜRKİYE 2015 SEÇİM ANALİZİ\n")
-            f.write("                   Çoklu Model Karşılaştırması\n")
-            f.write(f"                    {datetime.now().strftime('%d.%m.%Y %H:%M')}\n")
-            f.write("="*80 + "\n\n")
-            
-            # Model karşılaştırması
-            f.write("MODEL PERFORMANS KARŞILAŞTIRMASI:\n")
-            f.write("-" * 50 + "\n")
-            for party in self.parties:
-                if party in self.results:
-                    f.write(f"\n{party} İçin Model Sonuçları:\n")
-                    for model_name, metrics in self.results[party].items():
-                        f.write(f"  {model_name:20s}: R² = {metrics['R2']:6.3f}, RMSE = {metrics['RMSE']:5.2f}\n")
-                    if party in self.best_models:
-                        f.write(f"  En İyi Model: {self.best_models[party]}\n")
-            
-            # Özellik önemleri
-            if hasattr(self, 'feature_importance'):
-                f.write("\nÖZELLİK ÖNEM ANALİZİ:\n")
-                f.write("-" * 30 + "\n")
-                for party, df in self.feature_importance.items():
-                    f.write(f"\n{party} için önemli özellikler:\n")
-                    for _, row in df.head(5).iterrows():
-                        f.write(f"  {row['Feature']:25s}: {row['Importance']:6.3f}\n")
-            
-            # Final tahminler ve karşılaştırma
-            if len(actual_results) > 0:
-                actual = actual_results.iloc[0]
-                f.write("\nFİNAL TAHMİNLER VE GERÇEK SONUÇLAR:\n")
-                f.write("-" * 45 + "\n")
-                
-                total_error = 0
-                for party in self.parties:
-                    actual_vote = actual[party]
-                    recent_polls = self.data[
-                        (self.data['Period'] == 3) & 
-                        (~self.data['Is_Election'])
-                    ][party].dropna()
-                    
-                    if len(recent_polls) > 0:
-                        predicted_vote = recent_polls.tail(5).mean()
-                        error = abs(actual_vote - predicted_vote)
-                        total_error += error
-                        
-                        f.write(f"{party:12s}: Gerçek={actual_vote:5.1f}% | Tahmin={predicted_vote:5.1f}% | Hata={error:+5.1f}\n")
-                
-                f.write(f"\nGenel Performans:\n")
-                f.write(f"Ortalama Mutlak Hata: {total_error/len(self.parties):.2f} puan\n")
-            
-            f.write(f"\nRapor oluşturma zamanı: {datetime.now().strftime('%d.%m.%Y %H:%M:%S')}\n")
-        
-        print(f"📄 Kapsamlı rapor kaydedildi: {report_path}")core, mean_absolute_error
 import os
 import matplotlib
 matplotlib.use('Agg')
@@ -376,6 +309,12 @@ class AdvancedElectionAnalysis:
         print("📊 Gelişmiş grafikler oluşturuluyor...")
         
         try:
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            output_dir = os.path.join(script_dir, 'outputs', 'graphs')
+            os.makedirs(output_dir, exist_ok=True)
+            
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            
             # 1. Model karşılaştırma grafiği
             fig, axes = plt.subplots(2, 2, figsize=(16, 12))
             fig.suptitle('Model Performans Karşılaştırması', fontsize=16, fontweight='bold')
@@ -396,20 +335,21 @@ class AdvancedElectionAnalysis:
                     for bar, score in zip(bars, r2_scores):
                         bar.set_color('green' if score > 0 else 'red')
                         bar.set_alpha(0.7)
+                else:
+                    ax.set_title(f'{party} - Veri Yok')
+                    ax.text(0.5, 0.5, 'Yeterli veri bulunamadı', 
+                           horizontalalignment='center', verticalalignment='center', 
+                           transform=ax.transAxes)
             
-                plt.tight_layout()
-                script_dir = os.path.dirname(os.path.abspath(__file__))
-                output_dir = os.path.join(script_dir, 'outputs', 'graphs')
-                os.makedirs(output_dir, exist_ok=True)
-                
-                from datetime import datetime
-                timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                graph_filename = f'model_comparison_{timestamp}.png'
-                graph_path = os.path.join(output_dir, graph_filename)
-                
-                plt.savefig(graph_path, dpi=300, bbox_inches='tight')
-                plt.close()            # 2. Özellik önemleri heatmap
-            if hasattr(self, 'feature_importance'):
+            plt.tight_layout()
+            graph_filename = f'model_comparison_{timestamp}.png'
+            graph_path = os.path.join(output_dir, graph_filename)
+            plt.savefig(graph_path, dpi=300, bbox_inches='tight')
+            plt.close()
+            print(f"✅ Model karşılaştırma grafiği kaydedildi: {graph_filename}")
+            
+            # 2. Özellik önemleri heatmap
+            if hasattr(self, 'feature_importance') and len(self.feature_importance) > 0:
                 fig, ax = plt.subplots(figsize=(12, 8))
                 
                 # Tüm partiler için özellik önemlerini birleştir
@@ -418,6 +358,7 @@ class AdvancedElectionAnalysis:
                     all_features.update(df['Feature'].tolist())
                 
                 importance_matrix = []
+                valid_parties = []
                 for party in self.parties:
                     if party in self.feature_importance:
                         party_importance = []
@@ -426,30 +367,182 @@ class AdvancedElectionAnalysis:
                             importance = importance_df[importance_df['Feature'] == feature]['Importance']
                             party_importance.append(importance.iloc[0] if len(importance) > 0 else 0)
                         importance_matrix.append(party_importance)
+                        valid_parties.append(party)
                 
-                sns.heatmap(
-                    importance_matrix,
-                    xticklabels=sorted(all_features),
-                    yticklabels=self.parties,
-                    annot=True,
-                    fmt='.3f',
-                    cmap='YlOrRd',
-                    ax=ax
-                )
+                if len(importance_matrix) > 0:
+                    sns.heatmap(
+                        importance_matrix,
+                        xticklabels=sorted(all_features),
+                        yticklabels=valid_parties,
+                        annot=True,
+                        fmt='.3f',
+                        cmap='YlOrRd',
+                        ax=ax
+                    )
+                    
+                    ax.set_title('Özellik Önemleri - Tüm Partiler', fontsize=14, fontweight='bold')
+                    plt.xticks(rotation=45, ha='right')
+                    plt.tight_layout()
+                    
+                    feature_graph_filename = f'feature_importance_{timestamp}.png'
+                    feature_graph_path = os.path.join(output_dir, feature_graph_filename)
+                    plt.savefig(feature_graph_path, dpi=300, bbox_inches='tight')
+                    plt.close()
+                    print(f"✅ Özellik önemleri grafiği kaydedildi: {feature_graph_filename}")
+                else:
+                    plt.close()
+                    print("⚠️ Özellik önemleri için yeterli veri yok")
+            
+            # 3. Parti oy oranları zaman serisi
+            if self.data is not None:
+                fig, ax = plt.subplots(figsize=(14, 8))
                 
-                ax.set_title('Özellik Önemleri - Tüm Partiler', fontsize=14, fontweight='bold')
-                plt.xticks(rotation=45, ha='right')
+                # Sadece anket verilerini al (seçim sonuçları değil)
+                poll_data = self.data[~self.data['Is_Election']].copy()
+                
+                for party in self.parties:
+                    if party in poll_data.columns:
+                        # NaN değerleri temizle
+                        party_data = poll_data[['Time_Index', party]].dropna()
+                        if len(party_data) > 0:
+                            ax.plot(party_data['Time_Index'], party_data[party], 
+                                   label=party, marker='o', alpha=0.7, linewidth=2)
+                
+                ax.set_title('Parti Oy Oranları - Zaman Serisi', fontsize=14, fontweight='bold')
+                ax.set_xlabel('Zaman İndeksi')
+                ax.set_ylabel('Oy Oranı (%)')
+                ax.legend()
+                ax.grid(True, alpha=0.3)
                 plt.tight_layout()
                 
-                feature_graph_filename = f'feature_importance_{timestamp}.png'
-                feature_graph_path = os.path.join(output_dir, feature_graph_filename)
-                plt.savefig(feature_graph_path, dpi=300, bbox_inches='tight')
+                timeseries_filename = f'party_trends_{timestamp}.png'
+                timeseries_path = os.path.join(output_dir, timeseries_filename)
+                plt.savefig(timeseries_path, dpi=300, bbox_inches='tight')
                 plt.close()
+                print(f"✅ Zaman serisi grafiği kaydedildi: {timeseries_filename}")
             
-            print("📊 Grafikler kaydedildi!")
+            # 4. Model performans özeti
+            if len(self.results) > 0:
+                fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+                
+                # R² skorları karşılaştırması
+                parties = []
+                best_r2_scores = []
+                best_models = []
+                
+                for party in self.parties:
+                    if party in self.results:
+                        parties.append(party)
+                        best_model_name = max(self.results[party].items(), key=lambda x: x[1]['R2'])[0]
+                        best_r2 = self.results[party][best_model_name]['R2']
+                        best_r2_scores.append(best_r2)
+                        best_models.append(best_model_name)
+                
+                if len(parties) > 0:
+                    bars1 = ax1.bar(parties, best_r2_scores, alpha=0.7, color='skyblue')
+                    ax1.set_title('En İyi Model R² Skorları', fontweight='bold')
+                    ax1.set_ylabel('R² Skoru')
+                    ax1.set_ylim(0, 1.1)
+                    
+                    # Bar üzerinde değerleri göster
+                    for bar, score in zip(bars1, best_r2_scores):
+                        ax1.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.01,
+                                f'{score:.3f}', ha='center', va='bottom')
+                    
+                    # RMSE karşılaştırması
+                    rmse_scores = [self.results[party][max(self.results[party].items(), 
+                                                          key=lambda x: x[1]['R2'])[0]]['RMSE'] 
+                                  for party in parties]
+                    
+                    bars2 = ax2.bar(parties, rmse_scores, alpha=0.7, color='lightcoral')
+                    ax2.set_title('En İyi Model RMSE Skorları', fontweight='bold')
+                    ax2.set_ylabel('RMSE')
+                    
+                    # Bar üzerinde değerleri göster
+                    for bar, score in zip(bars2, rmse_scores):
+                        ax2.text(bar.get_x() + bar.get_width()/2, bar.get_height() + max(rmse_scores)*0.01,
+                                f'{score:.2f}', ha='center', va='bottom')
+                
+                plt.tight_layout()
+                performance_filename = f'model_performance_summary_{timestamp}.png'
+                performance_path = os.path.join(output_dir, performance_filename)
+                plt.savefig(performance_path, dpi=300, bbox_inches='tight')
+                plt.close()
+                print(f"✅ Model performans özeti grafiği kaydedildi: {performance_filename}")
+            
+            print("📊 Tüm grafikler başarıyla kaydedildi!")
             
         except Exception as e:
             print(f"⚠️ Grafik hatası: {e}")
+            import traceback
+            traceback.print_exc()
+    
+    def save_comprehensive_report(self, actual_results):
+        """
+        Kapsamlı analiz raporunu kaydet
+        """
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        report_dir = os.path.join(script_dir, 'outputs', 'reports')
+        os.makedirs(report_dir, exist_ok=True)
+        
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        report_filename = f'comprehensive_analysis_report_{timestamp}.txt'
+        report_path = os.path.join(report_dir, report_filename)
+        
+        with open(report_path, 'w', encoding='utf-8') as f:
+            f.write("="*80 + "\n")
+            f.write("              KAPSAMLI TÜRKİYE 2015 SEÇİM ANALİZİ\n")
+            f.write("                   Çoklu Model Karşılaştırması\n")
+            f.write(f"                    {datetime.now().strftime('%d.%m.%Y %H:%M')}\n")
+            f.write("="*80 + "\n\n")
+            
+            # Model karşılaştırması
+            f.write("MODEL PERFORMANS KARŞILAŞTIRMASI:\n")
+            f.write("-" * 50 + "\n")
+            for party in self.parties:
+                if party in self.results:
+                    f.write(f"\n{party} İçin Model Sonuçları:\n")
+                    for model_name, metrics in self.results[party].items():
+                        f.write(f"  {model_name:20s}: R² = {metrics['R2']:6.3f}, RMSE = {metrics['RMSE']:5.2f}\n")
+                    if party in self.best_models:
+                        f.write(f"  En İyi Model: {self.best_models[party]}\n")
+            
+            # Özellik önemleri
+            if hasattr(self, 'feature_importance'):
+                f.write("\nÖZELLİK ÖNEM ANALİZİ:\n")
+                f.write("-" * 30 + "\n")
+                for party, df in self.feature_importance.items():
+                    f.write(f"\n{party} için önemli özellikler:\n")
+                    for _, row in df.head(5).iterrows():
+                        f.write(f"  {row['Feature']:25s}: {row['Importance']:6.3f}\n")
+            
+            # Final tahminler ve karşılaştırma
+            if len(actual_results) > 0:
+                actual = actual_results.iloc[0]
+                f.write("\nFİNAL TAHMİNLER VE GERÇEK SONUÇLAR:\n")
+                f.write("-" * 45 + "\n")
+                
+                total_error = 0
+                for party in self.parties:
+                    actual_vote = actual[party]
+                    recent_polls = self.data[
+                        (self.data['Period'] == 3) & 
+                        (~self.data['Is_Election'])
+                    ][party].dropna()
+                    
+                    if len(recent_polls) > 0:
+                        predicted_vote = recent_polls.tail(5).mean()
+                        error = abs(actual_vote - predicted_vote)
+                        total_error += error
+                        
+                        f.write(f"{party:12s}: Gerçek={actual_vote:5.1f}% | Tahmin={predicted_vote:5.1f}% | Hata={error:+5.1f}\n")
+                
+                f.write(f"\nGenel Performans:\n")
+                f.write(f"Ortalama Mutlak Hata: {total_error/len(self.parties):.2f} puan\n")
+            
+            f.write(f"\nRapor oluşturma zamanı: {datetime.now().strftime('%d.%m.%Y %H:%M:%S')}\n")
+        
+        print(f"📄 Kapsamlı rapor kaydedildi: {report_path}")
     
     def run_comprehensive_analysis(self):
         """Kapsamlı analizi çalıştır"""
@@ -539,8 +632,16 @@ class AdvancedElectionAnalysis:
         
         self.create_advanced_plots()
         
+        # 8. Rapor kaydetme
+        print("\n" + "="*60)
+        print("📄 RAPOR KAYDETME")
+        print("="*60)
+        
+        actual_results = self.data[self.data['Is_Election'] & (self.data['Period'] == 3)]
+        self.save_comprehensive_report(actual_results)
+        
         print("\n✅ Kapsamlı analiz tamamlandı!")
-        print("� Grafikler: outputs/graphs/ klasöründe")
+        print("📊 Grafikler: outputs/graphs/ klasöründe")
         print("📄 Raporlar: outputs/reports/ klasöründe")
         print("🤖 Modeller: outputs/models/ klasöründe")
 

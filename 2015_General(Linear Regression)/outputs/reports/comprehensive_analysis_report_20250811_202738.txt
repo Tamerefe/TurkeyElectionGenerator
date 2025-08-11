@@ -1,0 +1,83 @@
+================================================================================
+              KAPSAMLI TÜRKİYE 2015 SEÇİM ANALİZİ
+                   Çoklu Model Karşılaştırması
+                    11.08.2025 20:27
+================================================================================
+
+MODEL PERFORMANS KARŞILAŞTIRMASI:
+--------------------------------------------------
+
+AK Parti İçin Model Sonuçları:
+  Linear Regression   : R² =  1.000, RMSE =  0.00
+  Ridge Regression    : R² =  0.996, RMSE =  0.21
+  Lasso Regression    : R² = -1.743, RMSE =  5.57
+  ElasticNet          : R² =  0.664, RMSE =  1.95
+  Random Forest       : R² =  0.874, RMSE =  1.19
+  En İyi Model: Linear Regression
+
+CHP İçin Model Sonuçları:
+  Linear Regression   : R² =  1.000, RMSE =  0.00
+  Ridge Regression    : R² =  0.580, RMSE =  0.96
+  Lasso Regression    : R² =  0.067, RMSE =  1.43
+  ElasticNet          : R² =  0.291, RMSE =  1.25
+  Random Forest       : R² =  0.756, RMSE =  0.73
+  En İyi Model: Linear Regression
+
+MHP İçin Model Sonuçları:
+  Linear Regression   : R² =  1.000, RMSE =  0.00
+  Ridge Regression    : R² =  0.892, RMSE =  0.51
+  Lasso Regression    : R² =  0.104, RMSE =  1.46
+  ElasticNet          : R² =  0.286, RMSE =  1.30
+  Random Forest       : R² =  0.640, RMSE =  0.93
+  En İyi Model: Linear Regression
+
+HDP İçin Model Sonuçları:
+  Linear Regression   : R² =  1.000, RMSE =  0.00
+  Ridge Regression    : R² =  0.994, RMSE =  1.50
+  Lasso Regression    : R² = -0.024, RMSE = 18.98
+  ElasticNet          : R² =  0.229, RMSE = 16.46
+  Random Forest       : R² =  0.005, RMSE = 18.71
+  En İyi Model: Linear Regression
+
+ÖZELLİK ÖNEM ANALİZİ:
+------------------------------
+
+AK Parti için önemli özellikler:
+  CHP                      :  0.499
+  HDP                      :  0.188
+  MHP                      :  0.172
+  Total_Major_Parties      :  0.092
+  Time_Index               :  0.024
+
+CHP için önemli özellikler:
+  AK Parti                 :  0.628
+  Total_Major_Parties      :  0.161
+  HDP                      :  0.053
+  Time_Index               :  0.052
+  MHP                      :  0.050
+
+MHP için önemli özellikler:
+  AK Parti                 :  0.583
+  HDP                      :  0.166
+  Time_Index               :  0.076
+  Total_Major_Parties      :  0.065
+  CHP                      :  0.046
+
+HDP için önemli özellikler:
+  Total_Major_Parties      :  0.639
+  Time_Index               :  0.125
+  Period                   :  0.105
+  AK Parti                 :  0.087
+  MHP                      :  0.017
+
+FİNAL TAHMİNLER VE GERÇEK SONUÇLAR:
+---------------------------------------------
+AK Parti    : Gerçek= 40.7% | Tahmin= 41.9% | Hata= +1.3
+CHP         : Gerçek= 25.1% | Tahmin= 26.3% | Hata= +1.2
+MHP         : Gerçek= 16.4% | Tahmin= 15.5% | Hata= +1.0
+HDP         : Gerçek= 13.0% | Tahmin= 12.2% | Hata= +0.8
+
+Genel Performans:
+Ortalama Mutlak Hata: 1.06 puan
+
+Rapor oluşturma zamanı: 11.08.2025 20:27:38
